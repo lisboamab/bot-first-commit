@@ -17,7 +17,7 @@ teste = 1
 
 while True:
     teste = input("Digite o nome do programa que quer abrir: ")
-    if int(teste) != 0:
+    if teste != '0':
         abrirPrograma(teste)
     else:
         print("Programa encerrando")
